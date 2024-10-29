@@ -241,9 +241,9 @@ namespace EDDemo.Estructuras_No_Lineales
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(403, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 13);
+            this.label1.Size = new System.Drawing.Size(67, 13);
             this.label1.TabIndex = 17;
-            this.label1.Text = "Buscar nodo:";
+            this.label1.Text = "Buscar nodo";
             // 
             // frmArboles
             // 

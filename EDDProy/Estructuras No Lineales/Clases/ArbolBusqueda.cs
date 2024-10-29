@@ -113,18 +113,20 @@ namespace EDDemo.Estructuras_No_Lineales
          }
 
 
-        public bool BuscarNodo(int valor, NodoBinario nodo)
+        public bool BuscarNodo(int Dato, NodoBinario nodo)
         {
             if (nodo == null) return false;
 
-            if (nodo.Dato == valor) return true;
+            if (nodo.Dato == Dato) return true;
 
             // Busca en el subárbol izquierdo o derecho
-            if (valor < nodo.Dato)
-                return BuscarNodo(valor, nodo.Izquierdo);
+            if (Dato < nodo.Dato)
+                return BuscarNodo(Dato, nodo.Izq);
             else
-                return BuscarNodo(valor, nodo.Derecho);
+                return BuscarNodo(Dato, nodo.Der);
         }
+
 
     }
 }
+//solicion de error
